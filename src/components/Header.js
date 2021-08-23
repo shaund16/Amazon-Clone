@@ -30,15 +30,15 @@ const Header = () => {
         </div>
         {/* Right Side */}
         <div className='text-white flex items-center text-xs space-x-6 mx-6 whitespace-nowrap'>
-          <div>
+          <div  className=' link'>
             <p>Hello Shaun Purslow</p>
             <p>Account & Lists</p>
           </div>
-          <div>
+          <div className=' link'>
             <p>Returns</p>
             <p>& Orders</p>
           </div>
-          <div>
+          <div className=' link'>
             <ShoppingCartIcon className="h-10" />
             <p>Basket</p>
           </div>
