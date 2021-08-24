@@ -9,16 +9,15 @@ const Footer = () => {
         <h5 className='font-bold text-sm'>Get to know us</h5>
         <p>How Amazon Works</p>
         <p>Newsroom</p>
-        <p>Investors</p>
+        <p>Careers</p>
         <p>Amazon Prime</p>
       </div>
       <div className='space-y-4 text-xs text-white'>
         <h5 className='font-bold text-sm '>Make Money with Us</h5>
-        <p>Accessibility</p>
+        <p>Sell on Amazon</p>
         <p>This is not a real site</p>
         <p>A sweet clone</p>
         <p>Referrals accepted</p>
-        <p></p>
       </div>
       <div className='space-y-4 text-xs text-white'>
         <h5 className='font-bold text-sm'>Amazon Payment Products</h5>
