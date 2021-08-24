@@ -5,6 +5,8 @@ Built using Next.js / Tailwind CSS / Redux / Firebase / NextAuth
 
 ## Preview 
 
+https://amazon-clone-wine-omega.vercel.app/
+
 Main Desktop
 ![](src/img/pic1.png)
 
