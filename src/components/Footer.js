@@ -1,9 +1,10 @@
-import React from 'react';
+import { useRouter } from 'next/router';
 
 const Footer = () => {
+  const router = useRouter();
   return (
     <div>
-      <div className='space-x-3 p-4 pl-6 bg-amazon_blue-light text-white text-sm text-center mt-4 hover:bg-gray-700'>Back to top</div>
+      <div onClick={() => router.push('/')}className='space-x-3 p-4 pl-6 bg-amazon_blue-light text-white text-sm text-center mt-4 hover:bg-gray-700 hover:underline cursor-pointer'>Back to top</div>
     <div className='grid grid-cols-1 md:grid-cols-4 gap-y-10 px-32 py-14 bg-amazon_blue text-center'>
       <div className='space-y-4 text-xs text-white'>
         <h5 className='font-bold text-sm'>Get to know us</h5>
