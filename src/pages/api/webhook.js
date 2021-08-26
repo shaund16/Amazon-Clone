@@ -4,6 +4,7 @@ import Stripe from 'stripe';
 
 //Secure a connection to FIREBASE from the backend
 const serviceAccount = require('../../../permissions.json');
+
 const app = !admin.apps.length
   ? admin.initializeApp({
       credential: admin.credential.cert(serviceAccount),
@@ -16,7 +17,7 @@ const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const endpointSecret = process.env.STRIPE_SIGNING_SECRET;
 
 const fulfillOrder = async (session) => {
-  //console.log('Fulfilling order', session)
+  console.log('Fulfilling order', session)
 
   return app
     .firestore()
